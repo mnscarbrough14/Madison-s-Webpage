@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="./img/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  </head>
+
+  <body>
+
+    <header class="page-header">
+      <!-- Add my logo -->
+      <img src="./img/Logo_MS.png" width="150" height="150" class="page-header_item_logo" alt="Madison's Logo">
+      <!-- Main Navigation -->
+      <nav class="page-header_item main-navigation">
+        <ul role="menubar" class="main-navigation_item">
+          <li role="presentation">
+            <a href="index.html" role="menuitem" class="main-navigation_item--active">Home</a>
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="main-navigation_item--active">About Me</a>
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="main-navigation_item--active">Work</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="main-navigation_item--active">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contact-main">
+      <div class="conact-main_text">
+        <h1>Contact</h1>
+        <p>My name is Madison Scarbrough. I am a <span>web</span> devloper from America.</p>
+        <a href="#">Check out some of my code.</a>
+      </div>
+      <div class="conact-main_form">
+        <p>Contact me</p>
+        <a href="tel:404-295-8779">Call me</a><br>
+        <a href="mailto:mnscarbrough14@gmail.com">Email me</a><br>
+        <form action="" method="post" id="contact-form">
+          <label class="standard-label" for="contact-email">Email: </label>
+          <input type="email" id="contact-email" required/>
+          
+          <label class="standard-label" for="contact-telephone">Telephone: </label>
+          <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" Id="contact-telephone"/>
+          
+          <label class="standard-label" for="send message">Message: </label>
+          <textarea required maxlength="240" id="send message"></textarea>
+
+          <input type="submit" value="Send message">
+        </form>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="page-footer_social-media">
+        <img src="img/github_icon.svg" alt="github">
+        <img src="img/twitter_icon.svg" alt="twitter">
+        <img src="img/linkedin_icon.svg" alt="linkedin">
+      </div>
+    </footer>
+
+  <script src="js/tota11y.min.js"></script>
+  </body>
+
+</html>
