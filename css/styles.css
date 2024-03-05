@@ -76,7 +76,6 @@ main {
 .about-main {
   width: auto;
   margin: auto;
-  display: inline-block;
 }
 .about-main_portrait {
   float: left;
