@@ -1,18 +1,18 @@
 :root {
   --primary-color: #000000;
-  --secondary-color: #af0101;
+  --secondary-color: #8b0000;
   --backgroud-color: #dfdfdf;
-  --backgroud-color2: #a5a5a5;
+  --backgroud-color2: #919191;
   --font-family_1: 'Lato', sans-serif;
-  --grid-background-color: #ff64645d;
+  --grid-background-color: #00000063;
+  --grid-font-color: #fdfdfd;
   --button-font-color: white;
   --button-background-color: rgb(139, 0, 0);
 }
 
 body {
   background: linear-gradient(33deg, var(--backgroud-color2), var(--backgroud-color) 70%, var(--secondary-color));
-  animation: gradient 25s ease infinite;
-  background-size: 400% 400%;
+  background-size: 125% 100%;
   background-attachment: fixed;
   font-family: var(--font-family_1);
   color: var(--primary-color);
@@ -94,6 +94,7 @@ main {
 }
 .work-main_grid_item {
   background-color: var(--grid-background-color);
+  color: var(--grid-font-color);
   border-radius: 5%;
   width: 100%;
   min-height: 100%;

@@ -215,7 +215,7 @@ a {
 }
 a:focus {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 2;
   text-decoration: underline;
 }
 a:hover {
